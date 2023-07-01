@@ -1,0 +1,37 @@
+form
+    {
+        color: #555;
+        display: flex;
+        padding: 5px;
+        border: 2px solid currentColor;
+        border-radius: 12px;
+    }
+.img
+    {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        justify-content:space-evenly ;
+        border-radius: 10px;
+    }
+           
+.one {
+        position: relative;
+        border-radius: 10px;
+        width: 220px;
+        height: 210px;
+        border: 2px solid currentColor;
+        box-shadow: 0  5px 10px grey;
+    } 
+
+.two {
+        position: absolute;
+        top:360px;
+        margin-left:-150px;   
+        font-family:'Times New Roman', Times;
+    }
+.btn1{
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: 0  5px 10px gold;
+
+    }

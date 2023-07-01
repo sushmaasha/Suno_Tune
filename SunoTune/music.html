@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SunoTune Project</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity=
+        "sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>            
+       
+        <link rel="stylesheet" href="music.css">
+       
+       <script>
+            function trend1(){
+                window.location.href = 'trend1.html';
+            } 
+            function trend2(){
+                window.location.href = 'trend2.html';
+            } 
+            function trend3(){
+                window.location.href = 'trend3.html';
+            } 
+            function trend4(){
+                window.location.href = 'trend4.html';
+            } 
+            function trend5(){
+                window.location.href = 'trend5.html';
+            } 
+
+
+            function retro1(){
+                window.location.href = 'retro1.html';
+            } 
+            function retro2(){
+                window.location.href = 'retro2.html';
+            }
+             function retro3(){
+                window.location.href = 'retro3.html';
+            } 
+            function retro4(){
+                window.location.href = 'retro4.html';
+            }
+             function retro5(){
+                window.location.href = 'retro5.html';
+            } 
+            
+            
+            function english(){
+                window.location.href = 'english.html'
+            }
+            function telugu(){
+                window.location.href = 'telugu.html'
+            }
+            function hindi(){
+                window.location.href = 'hindi.html'
+            }
+            function kannada(){
+                window.location.href = 'kannada.html'
+            }
+            function tamil(){
+                window.location.href = 'tamil.html'
+            }
+          </script>
+    
+    </head>
+
+    <body style="background-color: rgb(248, 243, 243);">
+        <div class="mb-4">
+            <div class="row mb-4" style="background-color: black;">
+                <div class="col-4"></div>
+                <div class="col-sm-4">
+                    <img id="stm" src="./st1.jpg">
+                </div>
+                <div class="col-4"></div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-4"></div>
+                <div class="col-sm-4">
+                    <form style="width: 450px; justify-content: center; background-color: black;">
+                        <input type="search" placeholder="Search" style="width: 370px; background-color: darkgrey;" >
+                        <button type="submit" class="btn btn-warning">Search</button>
+                      </form>
+                </div>
+                <div class="col-4"></div>
+            </div>
+
+
+            <div class="img mb-6">
+                <div>
+                    <img onclick="english()" class="one" src="./st2.jpg">
+                    <label class="two"><h4>ENGLISH</h4></label>
+                </div>
+                <div>
+                    <img onclick="telugu()" class="one" src="./st2.jpg">
+                    <label class="two"><h4>TELUGU</h4></label>
+                </div>
+                <div>
+                    <img onclick="hindi()" class="one" src="./st2.jpg">
+                    <label class="two"><h4>HINDI</h4></label>
+                </div>
+                <div>
+                    <img onclick="kannada()" class="one" src="./st2.jpg">
+                    <label class="two"><h4>KANNADA</h4></label>
+                </div>
+                <div>
+                    <img onclick="tamil()" class="one" src="./st2.jpg">
+                    <label class="two"><h4>TAMIL</h4></label>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="mb-4 mt-4" style="color: black; font-family: 'Times New Roman', Times, serif;">Trending Songs</h3>
+                <div class="img">
+                    <div>
+						<img class="btn1" onclick="trend1()" src="imgt1.jpg" width="220px" height="200px">
+                    </div>
+                    <div>
+						<img class="btn1" onclick="trend2()" src="imgt2.jpg" width="220px" height="200px">
+                    </div>
+                    <div>
+						<img class="btn1" onclick="trend3()" src="imgt3.jpg" width="220px" height="200px">
+                    </div>
+                    <div>
+						<img class="btn1" onclick="trend4()" src="imgt4.jpg" width="220px" height="200px">
+                    </div>
+                    <div>
+						<img class="btn1" onclick="trend5()" src="imgt5.jpg" width="220px" height="200px">
+                    </div>
+                    
+                  </div>
+            </div>
+            <div>
+                <h3 class="mb-4 mt-4" style="color: black; font-family: 'Times New Roman', Times, serif;">Retro Hits</h3>
+                <div class="img">
+                    <div>
+						<img class="btn1" onclick="retro1()" src="imgr1.jpg" width="220px" height="200px">
+                    </div>
+                    <div>
+						<img class="btn1" onclick="retro2()" src="imgr2.jpg" width="220px" height="200px">
+                    </div>
+                    <div>
+						<img class="btn1" onclick="retro3()" src="imgr3.jpg" width="220px" height="200px">
+                    </div>
+                    <div>
+						<img class="btn1" onclick="retro4()" src="imgr4.jpg" width="220px" height="200px">
+                    </div>
+                    <div>
+						<img class="btn1" onclick="retro5()" src="imgr5.jpg" width="220px" height="200px">
+                    </div>
+                    
+                  </div>
+            </div>
+        </div>
+    </body>
+</html>
